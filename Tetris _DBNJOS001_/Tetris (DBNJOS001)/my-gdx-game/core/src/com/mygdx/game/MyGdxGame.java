@@ -128,7 +128,6 @@ public class MyGdxGame extends ApplicationAdapter {
 		try {
 			getScore();
 		} catch (FileNotFoundException e) {
-			// TODO Auto-generated catch block
 			e.printStackTrace();
 		}
 		move = Gdx.audio.newSound(Gdx.files.internal("beep-07.wav"));
