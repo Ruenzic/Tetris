@@ -144,7 +144,7 @@ public class MyGdxGame extends ApplicationAdapter {
 		
 	}
 	
-	 @Override
+    @Override
     public void dispose() {
         batch.dispose();
         cursor.dispose();
