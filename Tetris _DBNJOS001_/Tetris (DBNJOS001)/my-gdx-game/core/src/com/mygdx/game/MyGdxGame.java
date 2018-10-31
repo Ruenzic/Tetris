@@ -1077,6 +1077,18 @@ public class MyGdxGame extends ApplicationAdapter {
 			e.printStackTrace();
 		}
     }
+	
+	public void specialFeature(){}
+	
+	public boolean isGameOver(){
+		if (score == limit){
+		return true;	
+		}
+	}
+	
+	public void resetScore(){
+		score = 0;	
+	}
 
     
 }
