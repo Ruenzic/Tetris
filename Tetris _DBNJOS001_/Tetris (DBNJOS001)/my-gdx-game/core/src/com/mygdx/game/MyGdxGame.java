@@ -891,7 +891,7 @@ public class MyGdxGame extends ApplicationAdapter {
     			rowCount++; // check if row is full
     		}
     	}
-    	//System.out.println(rowCount + "!!!!!!!!!!!");
+
     	if (rowCount == 15)
     	{
     		for (int i = 1; i < 16; i ++)
