@@ -357,6 +357,7 @@ public class MyGdxGame extends ApplicationAdapter {
 			scoreText.draw(batch, "GAME OVER", 360, 360);
 		}
 		
+		// Can probably be done in a loop, or a method or something, takes arg (int level) etc...
 		if (Level == 1)
 		{
 			scoreText.draw(batch, "LEVEL 1", 360, 360);
