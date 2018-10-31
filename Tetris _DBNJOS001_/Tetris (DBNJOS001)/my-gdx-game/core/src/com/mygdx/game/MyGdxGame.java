@@ -1004,6 +1004,7 @@ public class MyGdxGame extends ApplicationAdapter {
     
     public void drawBlock() // draw the different blocks.
     {
+	// drawBlock should just take a (string colour) arg, and use that, instead of all the ifs
     	if (colour.equals("blue"))
 		{
 			batch.draw(blue, cursorX, cursorY); // DRAW MAIN BLOCK.
